@@ -21,6 +21,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
+<<<<<<< HEAD
   var tempArray = kittens.concat(name);
   return tempArray;
 }
@@ -40,3 +41,7 @@ function removeFirstKitten(){
   return tempArray;
 }
 
+=======
+  var tempArray = [kittens... name]
+}
+>>>>>>> 9d752a93483844836b00e82f2aa1728ac25ee778
